@@ -2003,7 +2003,7 @@ input, select, textarea {
 			padding: 0;
 		}
 
-/* Icon */
+/* icon */
 
 	.icon {
 		text-decoration: none;
@@ -2275,7 +2275,7 @@ input, select, textarea {
 
 		}
 
-/* Icons */
+/* icons */
 
 	ul.icons {
 		cursor: default;
@@ -3117,9 +3117,9 @@ input, select, textarea {
 
 			}
 
-		.wrapper.style4 {
+	/*	.wrapper.style4 {
 			background-color: transparent;
-		}
+		}*/
 
 		.wrapper.style5 {
 			background-color: #ffffff;
@@ -3543,6 +3543,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
+
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3557,10 +3558,14 @@ input, select, textarea {
 		justify-content: center;
 		cursor: default;
 		height: 100vh;
-		min-height: 35em;
+		min-height: 20em;
 		overflow: hidden;
-		position: relative;
-		text-align: center;
+		position: right;
+		text-align: right;
+		padding-right: 8em;
+		padding-top: 25em;
+
+
 	}
 
 		#banner h2 {
@@ -3768,7 +3773,7 @@ input, select, textarea {
 			}
 
 				#cta .inner header {
-					padding-right: 0;
+					padding-right: 20em;
 					width: 100%;
 				}
 
@@ -3792,17 +3797,16 @@ input, select, textarea {
 /* Main */
 
 	#main > header {
-		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-attachment: fixed;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		text-align: center;
-	}
+			padding: 12em 0 10em 0 ;
+			background-image: -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/profilepic.jpg");
+			background-image: -o-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/profilepic.jpg");
+			background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/profilepic.jpg");
+			background-attachment: fixed;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			text-align: left;
+		}
 
 		#main > header h2 {
 			font-size: 1.75em;
@@ -3943,10 +3947,10 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		/*background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg"); */
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/profilepic.jpg");
+		/* background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		/*background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg"); */
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3954,9 +3958,9 @@ input, select, textarea {
 		padding-top: 0;
 	}
 
-	body.landing #footer {
+	/*body.landing #footer {
 		background-color: rgba(29, 36, 42, 0.9);
-	}
+	} */
 
 	body.is-mobile.landing #page-wrapper {
 		background: none;
